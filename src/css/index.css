@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #4782ea;
+}
+
+div#app header {
+  padding: 10px;
+}
+div#app header h1 {
+  text-transform: uppercase;
+  background-color: #333333;
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+}
+div#app main {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 10px 30px;
+}
+div#app footer {
+  padding: 10px;
+}
+div#app footer p {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=index.css.map */

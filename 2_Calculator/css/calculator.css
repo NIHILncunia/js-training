@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+div#app {
+  width: 50%;
+  margin: 0 auto;
+}
+div#app > div.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+div#app > div.row:nth-of-type(1) {
+  margin-top: 0;
+}
+div#app > div.row:nth-last-of-type(1) {
+  margin-bottom: 0;
+}
+div#app > div.row > input {
+  all: unset;
+  background-color: #eeeeee;
+  color: #333333;
+  box-sizing: border-box;
+  font-size: 1.5rem;
+  border: 1px solid #cccccc;
+}
+div#app > div.row > input#operator {
+  text-align: center;
+  height: 50px;
+  width: 50px;
+}
+div#app > div.row > input#result {
+  flex: 1;
+  margin-left: 20px;
+  text-align: right;
+  height: 50px;
+  padding-right: 20px;
+}
+div#app > div.row > button {
+  all: unset;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 1.5rem;
+  margin-right: 20px;
+  width: 25%;
+  text-align: center;
+  background-color: #eeeeee;
+  border: 1px solid #cccccc;
+  color: #333333;
+}
+div#app > div.row > button:hover {
+  background-color: #333333;
+  border: 1px solid #333333;
+  color: #ffffff;
+  cursor: pointer;
+}
+div#app > div.row > button:nth-last-of-type(1) {
+  margin-right: 0;
+}
+
+/*# sourceMappingURL=calculator.css.map */

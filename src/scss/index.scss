@@ -1,0 +1,32 @@
+@import 'reset.scss';
+
+div#app {
+  header {
+    padding: 10px;
+
+    h1 {
+      text-transform: uppercase;
+      background-color: #333333;
+      color: #ffffff;
+      padding: 10px;
+      text-align: center;
+    }
+  }
+
+  main {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px 30px;
+  }
+
+  footer {
+    padding: 10px;
+
+    p {
+      background-color: #333333;
+      color: #ffffff;
+      padding: 10px;
+      text-align: center;
+    }
+  }
+}

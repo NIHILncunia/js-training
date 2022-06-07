@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+  <link rel="stylesheet" href="css/calculator.css" />
+
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+  />
+
+  <title>계산기</title>
+</head>
+<body>
+  <div id="app">
+    <div class="row">
+      <input id="operator" type="text" readonly aria-label="operator" />
+      <input id="result" type="text" readonly aria-label="result" />
+    </div>
+    <div class="row">
+      <button class="number">7</button>
+      <button class="number">8</button>
+      <button class="number">9</button>
+      <button class="operator">+</button>
+    </div>
+    <div class="row">
+      <button class="number">4</button>
+      <button class="number">5</button>
+      <button class="number">6</button>
+      <button class="operator">-</button>
+    </div>
+    <div class="row">
+      <button class="number">1</button>
+      <button class="number">2</button>
+      <button class="number">3</button>
+      <button class="operator">×</button>
+    </div>
+    <div class="row">
+      <button class="clear">C</button>
+      <button class="number">0</button>
+      <button class="calculate">=</button>
+      <button class="operator">÷</button>
+    </div>
+  </div>
+  <script src="js/index.js"></script>
+</body>
+</html>
